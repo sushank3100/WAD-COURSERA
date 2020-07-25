@@ -1,0 +1,150 @@
+
+        * {
+            box-sizing: border-box;
+            float: left;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+           
+            margin-left: 50px;
+
+
+        }
+
+        h1 {
+            display: block;
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .row {
+            width: 100%;
+
+        }
+
+        #item-1 {
+            background-color: grey;
+            border: 1px solid black;
+            margin: 15px;
+            float: left;
+
+        }
+
+        #item-2 {
+            background-color:    grey;
+            border: 1px solid black;
+            margin: 15px;
+            float: left;
+        }
+
+        #item-3 {
+            background-color:    grey;
+            border: 1px solid black;
+            margin: 15px;
+            float: left;
+
+        }
+
+        .items {
+            width: 90%;
+            height: 150px;
+            margin: 15px;
+            float: left;
+            font-size: 16px;
+            
+        }
+        .title1 {
+            border: 1px solid black;
+            background-color:  rgb(247, 183, 193);
+            float: right;
+            padding: 5px;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .title2 {
+            border: 1px solid black;
+            background-color:rgb(250, 73, 73);
+            float: right;
+            padding: 5px;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .title3 {
+            border: 1px solid black;
+            background-color:rgb(241, 241, 155);
+            float: right;
+            padding: 5px;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        @media (min-width:992px) {
+            body {
+                width: 100%;
+                height: 100%;
+            }
+
+            #item-1 {
+                width: 30%;
+                
+            }
+
+            #item-2 {
+                width: 30%;
+                
+            }
+
+            #item-3 {
+                width: 30%;
+            
+            }
+
+        }
+        @media (min-width: 768px) and (max-width: 991px){
+            body {
+                width: 100%;
+                height: 100%;
+            }
+
+            #item-1 {
+                width: 45%;
+            }
+
+            #item-2 {
+                width: 45%;
+            }
+
+            #item-3 {
+                width: 93%;
+                padding: 5px;
+            }
+            .items{
+                padding: 20px;
+            }
+        }
+        @media (max-width: 767px){
+
+                body {
+                width: 100%;
+                height: 100%;
+            }
+
+            #item-1 {
+                width: 93%;
+                
+            }
+
+            #item-2 {
+                width: 93%;
+                
+            }
+
+            #item-3 {
+                width: 93%;
+                
+            }
+        }
