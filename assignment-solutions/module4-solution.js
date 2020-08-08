@@ -1,5 +1,5 @@
 
-let array = ["sushank", "jaipal", "rakshith", "thumma", "Jack", "Patil", "janak","bollam","Jhon","narwade","jacob"];
+let array = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry","Paula","Laura","Jim"];
 
 for (let i = 0; i < array.length; i++) {
     let str =array[i];
